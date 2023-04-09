@@ -1,0 +1,214 @@
+@media only screen and (min-width: 993px) {
+.atp{
+    padding: 75px 0 65px 0;
+    .container{
+        margin: auto;
+        .item-1{
+            .ct{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: 'Baskerviile';
+            }
+            .img{
+                width: 91%;
+            }
+            .ct_1
+            {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: -0.16px;
+                padding: 21px 0 0 0 ;
+                width: 85%;
+                
+            }
+            .ct_2{
+                color: #142C54;
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: -5px;
+                
+                }
+
+            }
+            
+        
+        .item-2{
+            width: 87%;
+            .ct{
+                font-size: 30px;
+                color: #142C54; 
+                font-family: 'Baskerviile-Semi';
+                font-weight: 600;
+                letter-spacing: 0.9px;
+                
+            }
+            .ct_1{
+                font-size: 19px;
+                line-height: 24px;
+                letter-spacing: -0.5px;
+                margin-bottom: 10px;
+                .ct_1_1{
+                    font-weight: bold;
+                    font-family: 'Open Sans', sans-serif;
+                }
+        }
+        .ct_2{
+            font-size: 19px;
+            line-height: 25px;
+           
+            .ct_2_1{
+                font-weight: bold;
+                font-family: 'Open Sans', sans-serif;
+            }
+            .ct_2_2{
+                font-size: 16px;
+                font-weight: bold;
+                color: #142C54;
+            }
+        }
+        .ct_3{
+            padding-top: 10px;
+            .col-9{
+                padding-top: 25px;
+                padding-left: 30px;
+            .ct_3_1{
+                font-weight: bold;
+            }
+            .ct_3_2{
+                padding-top: 7px;
+                letter-spacing: 0.4px;
+            }
+        }
+           
+        }
+    }
+        .item-3{
+            margin-top: 10px;
+            text-align: center;
+            background-color:#142C54;
+            padding: 50px 47px 60px 47px;
+            border-radius: 10px;
+            .ct_1{
+                font-family: 'Baskerviile';
+                color: #FFCD00;
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .ct_2{
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.2px;
+                padding-top: 22px;
+                color: white;
+                font-family: 'Georgia';
+            }
+        }
+      
+}
+}
+}
+
+@media only screen and (min-width: 355px) and (max-width:992px) {
+   .atp{
+    padding: 30px 0 0 0;
+    .container{
+        width: 100%;
+        .item-1{
+            .ct{
+            font-size: 25px;
+            font-weight: 600;
+            font-family: 'Baskerviile';
+            }
+            .img{
+                width: 100%;
+                height: 182px;
+            }
+            .ct_1
+            {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: -0.16px;
+                padding: 21px 0 0 0 ;
+            }
+            .ct_2{
+                color: #142C54;
+                font-size: 16px;
+                font-weight: bold;     
+                }
+
+            }  
+            
+            
+            .item-2{
+                padding-bottom: 66px;
+                padding-top: 24px;
+                .ct{
+                    font-size: 25px;
+                    color: #142C54; 
+                    font-family: 'Baskerviile-Semi';
+                    font-weight: 600;
+                }
+                .ct_1{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-family: 'Open Sans', sans-serif;
+                    .ct_1_1{
+                        font-weight: bold;
+                    }
+            }
+            .ct_2{
+                font-size: 16px;
+                line-height: 22px;
+                font-family: 'Open Sans', sans-serif;
+                .ct_2_1{
+                    font-weight: bold;
+                }
+                .ct_2_2{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #142C54;
+                }
+            }
+            .ct_3{
+                img{
+                    width: 68px;
+                    height: 68px;
+                }
+                .col-9{
+                    font-size: 16px;
+                    font-family: 'Open Sans', sans-serif;
+                    padding: 10px;
+                    line-height: 22px;
+                    letter-spacing: -0.16px;
+                .ct_3_1{
+                    font-weight: bold;
+                }
+            }
+               
+            }
+        }
+
+        .item-3{
+            padding: 20px 0 47px 0;
+            background-color: #142C54;
+            text-align: center;
+            .ct_1{
+                font-size: 25px;
+                font-weight: 600;
+                color: #FFCD00;
+                letter-spacing: -1.05px;
+                font-family: 'Baskerviile-Semi';
+            }
+            .ct_2{
+                font-size: 20px;
+                color: white;
+                letter-spacing: -0.2px;
+                line-height: 30px;
+                font-family: 'Georgia';
+            }
+        }
+    }
+   } 
+}

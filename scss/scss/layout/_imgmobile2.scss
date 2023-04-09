@@ -1,0 +1,14 @@
+@media only screen and (min-width: 993px) {
+	.img-mobile2{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 355px) and (max-width:992px){
+	.img-mobile2{
+		background-image: url('/Example/Images/Bitmapmobile.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 200px;
+	}
+}

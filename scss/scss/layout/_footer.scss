@@ -1,0 +1,146 @@
+@media only screen and (min-width: 993px) {
+.footer{
+	padding-top: 50px;
+	.footer-top{
+		padding: 2px 0 19px;
+	.container{
+		.row{
+			.col-item1{
+				display: flex;
+				.logo{
+					width: 153px;
+					height: 153px;
+				}
+				.ft-content{
+					padding: 15px 7px;
+					line-height: 18px;
+					letter-spacing: 0.4px;
+					
+					&-p1{
+						font-size: 16px;
+						font-weight: bold;
+					}
+					&-p2{
+						font-size: 16px;
+						width: 70%;
+				}
+				.ft-content-p2mb{
+					display: none;
+
+				}
+				.ft-content-p3mb{
+					display: none;
+				}
+			}
+		}
+			.col-item-2{
+				padding-top: 15px;
+				.link{
+					font-size: 15px;
+					font-weight: 500;
+				&-item1{
+					display: flex;
+					gap: 35px;
+				}
+				.link-item1-mobile{
+					display: none;
+				}
+				&-item2{
+					margin-top: -5px;
+					display: flex;
+					gap: 26px;
+					letter-spacing: 0.4px;
+				}
+				}
+			}
+				.social{
+					display: flex; 
+					gap: 15px;
+   					 padding-top: 5px;
+					img{
+						width: 35px;
+					}
+				}
+	}
+}
+	}
+	.ft-bottom{
+		background-color: #F1F6FF;
+		.ft-bottom-content{
+			font-size: 15px;
+			font-weight: 500;
+			padding: 12px 0 14px 0;
+		}
+	}
+
+}
+}
+
+@media only screen and (min-width: 355px) and (max-width:992px) {
+	.footer-top{
+		padding: 48px 0 36px 0;
+		.container{
+				.col-item1{
+					display: flex;
+					flex-direction: row-reverse;
+					justify-content: space-between;
+					
+					.logo{
+						img{
+						width: 117px;
+						height: 117px;
+						}
+					}
+					.ft-content{
+						font-size: 14px;
+						font-weight: 500;
+						font-family: 'Open Sans', sans-serif;
+						line-height: 15px;
+						letter-spacing: -0.19px;
+						.ft-content-p1{
+							font-weight: bold;
+						}
+						.ft-content-p2{
+							display: none;
+						}
+						.ft-content-p2mb{
+							width: 99%;
+		
+						}
+					}
+				}
+				.col-item-2{
+					.link{
+						font-size: 14px;
+						font-weight: 500;
+						font-family: 'Open Sans', sans-serif;
+						color: #142C54;
+						line-height: 14px;
+						padding-bottom: 30px;
+						margin-top: -15px;
+						.link-item1{
+							display: none;
+						}
+					}
+				}
+				.social{
+					display: flex;
+    				gap: 20px;
+					padding-top: 10px;
+					img{
+						width: 45px;
+					}
+				}
+		}
+	}
+
+	.ft-bottom{
+		background-color: #F1F6FF;
+		font-weight: 500;
+		padding: 10px 20px 14px;
+		font-size: 14px;
+		color: #142C54;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+}

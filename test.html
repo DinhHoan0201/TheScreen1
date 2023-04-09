@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <title>Danh sách sản phẩm</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Danh sách sản phẩm</h1>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Mã sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá bán</th>
+            <th>Đơn vị tính</th>
+            <th>Mô tả</th>
+            <th>URL hình ảnh minh họa 1</th>	
+            <th>URL hình ảnh minh họa 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        <c:forEach var="sp" items="${lstProduct}">
+            <tr>
+                <td><a href="/admin/detail/${sp.maSp}">${sp.maSp}</a></td>
+                <td>${sp.tenSp}</td>
+                <td>${sp.giaBan}</td>
+                <td>${sp.donViTinh}</td>
+                <td>${sp.moTa}</td>
+                <td><img src="${sp.urlHinhAnh1}" alt="Hình ảnh minh họa 1"></td>
+        		<td><img src="${sp.urlHinhAnh2}" alt="Hình ảnh minh họa 2"></td>
+      </tr>
+    </c:forEach>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

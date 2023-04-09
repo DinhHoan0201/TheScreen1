@@ -1,0 +1,117 @@
+@media only screen and (min-width: 993px) {
+      .topbar {
+        width: 100%;
+        background-color: #0E2244;
+        font-family: 'Open Sans', sans-serif;
+        .container{
+            height: 37px;
+            .topbar-item{
+                padding-top: 9px;
+                color: white;
+                text-align: right;
+                font-size: 14px;
+                font-weight: 500;
+              
+                .a1{
+                    padding-right: 44px;
+                }
+            }
+            .icon{
+                display: none;
+            }
+            .logo{
+                margin-top: -10px;
+                /* margin-right: 15px; */
+                margin-left: -10px;
+             
+               
+            }
+            .menu-ic{
+                display: none;
+            }
+            
+        }
+      }
+      .navbar{
+        width: 100%;
+        background-color: #142C54;
+        font-family: 'Open Sans', sans-serif;
+        position: absolute;
+        z-index: -1;
+    
+        .container{
+            height: 55px;
+            
+            .row{
+                margin: 0 auto;
+            width: 100%;
+            .list{
+                display: flex;
+                justify-content: space-between;
+                font-size: 15px;
+                font-weight: 500;
+                color: white;
+                margin-left: -9px;
+                padding-top: 20px;
+                
+                    button{
+                        background-color: #FFCD00;
+                        margin-top: -24px;
+                        padding: 24px 35px;
+                        margin-right: -11px;
+                        border: none;
+                        .bt_item_1{
+                            padding-left: 10px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            font-family: 'Open Sans', sans-serif;
+                            color: #142C54;
+
+                        }
+                    }
+                }
+               } 
+            }
+            
+            }
+        }
+        
+@media only screen and (min-width: 355px) and (max-width:992px){
+    .topbar{ 
+        padding-top: 11px;
+        background-color:#c2cad8;
+        .container{ 
+            width: 100%;
+            .topbar-item{
+                display: none;
+            }
+            .logo{
+                img{
+                    width: 102px;
+                    height: 102px;
+                }
+
+            }
+            .topbar-item2{
+                display: flex;
+                justify-content: space-between;
+                .icon{
+                    padding-top: 22px;
+                }
+                .menu-ic{
+                    padding-top: 22px;
+                }
+            }
+
+        }
+        
+    }
+    .navbar{
+       display: none;
+    }
+}
+
+      
+    
+
+  

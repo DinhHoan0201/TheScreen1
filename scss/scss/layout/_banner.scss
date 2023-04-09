@@ -1,0 +1,65 @@
+@media only screen and (min-width: 993px)  {
+.banner{
+	background-image: url('/Example/Images/Bitmap.png');
+	min-height: 392px;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	position: absolute;
+    top: 105px;
+    width: 100%;
+    z-index: -1;
+	.container{
+		.elemment{
+			padding-left: 20px;
+			line-height: 95px;
+			letter-spacing: 1.93px;
+		.content1{
+			font-family: 'Baskerviile';
+			padding-top: 123px;
+			font-size: 70px;
+			color: white;
+			font-weight: bold;
+			line-height: 73px;
+			
+			&-item{
+				font-family: 'Baskerviile-Italic';
+				color: #FFCD00;
+				letter-spacing: -3px;
+			}
+		}
+		.content2{
+			font-family: 'Baskerviile';
+			font-size: 70px;
+			color: white;
+			font-weight: bold;
+			letter-spacing: -0.07px;
+			}
+	}
+}
+}
+}
+
+@media only screen and (min-width: 355px) and (max-width:992px) {
+	.banner{
+		padding: 34px 0 20px 0;
+		background-color: #142C54;;
+		.container{
+			.elemment{
+				text-align: center;
+				font-size: 30.6px;
+				font-weight: bold;
+				color: white;
+				font-family: 'Baskerviile';
+				line-height: 43.9px;
+    			letter-spacing: 1.1px;
+				.content1-item{
+				font-family: 'Baskerviile-Italic';
+				color: #FFCD00;
+				letter-spacing: -3px;
+				}
+		}
+	}
+	}
+
+}
